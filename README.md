@@ -5,11 +5,18 @@
 * Conducted advanced data analytics with Azure Synapse Analytics, generating actionable insights from transformed data, such as medal counts and participant statistics.   
 * Managed the entire lifecycle of a cloud-based data pipeline on Azure, from setup and configuration to data processing and visualization, demonstrating strong project management and technical skills.  
 
-Here's the architecture which I followed to complete the project:  
 
+## Project Architecture
 
-<img width="709" alt="architecture" src="https://github.com/rajeshreddy2000/Tokyo_Olympics_DataEngineering/assets/71868249/1e0a3b58-14b8-499b-bf56-55005dd8b886">
-    
+This project demonstrates a comprehensive data engineering pipeline using various Azure services along with popular data visualization tools. Below is a simple flowchart of the project's architecture:
+
+- **Data Source** ---> Initial point where raw data originates.
+- **Data Factory** ---> Ingests data from the data source for preliminary processing.
+- **Raw Data Store (Data Lake Gen 2)** ---> Stores the raw data for further processing and transformation.
+- **Azure Databricks** ---> Performs data transformation to prepare the data for analysis.
+- **Transformed Data Store (Data Lake Gen 2)** ---> Holds the transformed data ready for analytical processing.
+- **Azure Synapse Analytics** ---> Processes transformed data to extract actionable insights.
+- **Power BI and Looker Studio** ---> Visualization tools used to create dashboards for data reporting.
 
 
 **Step-by-step breakdown follows the logical flow from data ingestion to visualization, demonstrating a comprehensive approach to building a scalable and robust Azure data engineering solution.**  
@@ -35,3 +42,16 @@ Here's the architecture which I followed to complete the project:
 6. **Visualization:**
    - Developed interactive dashboards using Power BI, and also utilized tools like Looker Studio and Tableau for robust data visualization.
    - These dashboards provided real-time insights through visual representations, making the data easy to understand and actionable for decision-makers.
+
+
+## Technology Used
+
+- Microsoft Azure  
+      Data Factory  
+      Data Lake Storage Gen2  
+      Databricks  
+      Synapse Analytics   
+- Visualization:   
+      Power BI  
+      Looker Studio   
+
